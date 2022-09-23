@@ -35,6 +35,9 @@ body {
 .mg-sm{
     margin-top: 16px;
 }
+.mg-bm{
+  margin-bottom: 16px;
+}
 .bg-dark{
   background-color: #1f1f70;
   color: #fff;
@@ -93,6 +96,7 @@ nav {
  color: #fff;
 }
 
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -102,7 +106,7 @@ nav ul {
 }
 
 nav li {
-  float: left;
+  float:left;
 }
 
 nav li a {
@@ -120,6 +124,7 @@ nav li a:hover{
 nav li a:hover:not(.active){
   background-color: #111;
 }
+
 
 .active {
   background-color: #00827f;/*#01579b;#04AA6D;*/
