@@ -92,9 +92,13 @@ body {
 }
 
 .img-size{
-  width: calc(80% - 1%);;
-  height:calc(80% - 3%);
+  /*width: calc(80% - 1%);
+  height:calc(80% - 2%);*/
+  max-width: 80%;
+  height: auto;
 }
+
+
 
 /*NAVBAR STYLE have done this before*/
 nav {
@@ -103,7 +107,7 @@ nav {
  justify-content: space-between;
  padding: 5px;
  /*background-image: linear-gradient(-50deg, #01579b 50%, #1f1f70 50%);*/
- background-image: linear-gradient(to bottom right, #1f1f70 70%,#00827f  30% );
+ background-image: linear-gradient(to bottom right, #1f1f70 75%,#00827f  25% );
 
  color: #fff;
 }
@@ -143,7 +147,7 @@ nav li a:hover:not(.active){
 }
 
 /*GRID STYLEs always wanted tor try this*/
-.main-container{
+main{
     display: grid;
     grid-template-columns: 100%;/*create an easy overall container*/
     gap:16px;
