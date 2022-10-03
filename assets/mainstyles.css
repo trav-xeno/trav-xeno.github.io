@@ -34,7 +34,10 @@ body {
 .txt-white{
     color: #fff;
 }
-
+.lt-center{
+  display: inline-block;
+  text-align: left;
+}
 .pd-offset{
     padding-left: 100px;
     padding-top: 20px;
